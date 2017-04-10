@@ -1,0 +1,62 @@
+body{
+background-color: #36D1DC;  /* fallback for old browsers */
+background: linear-gradient(to top, #36d1dc, #5b86e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height:100vh;
+font-family:"Open Sans",sans-serif;
+}
+.fa-twitter-square{
+  
+  padding-left:20px;
+
+  position:fixed;
+}
+#quoteButton{
+  margin-top:25px;
+}
+
+#twit{
+  display:block;
+}
+.social-media{
+  width:100%;
+  
+  position:fixed;
+  height:100px;
+  bottom:0%;
+  left:-50%;
+}
+.quotebox{
+  vertical-align:middle;
+  text-align:center;
+  box-shadow:2px 2px black;
+  background-color:white;
+  height:400px;
+  width:1000px;
+  left:50%;
+  position:fixed;
+  top:20%;
+  transform:translate(-50%, -20%);
+  border-radius: 8px;
+}
+
+#quote { 
+  
+  text-align:center;
+  padding-top:100px;
+  font-size:24px;
+  font-color:blue;
+   font-family:"Open Sans",sans-serif;
+}
+
+.btn{
+  display:inline;
+}
+.twitter-share-button{
+  top:-10px;
+}
+
+.btn:hover{
+  background-color:black;
+  color:white;
+  transition:0.5s;
+}

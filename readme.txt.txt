@@ -1,0 +1,1 @@
+Sometimes this application will stop retreiving quotes if used too much. This isn't an issue with the code, but more the limitation of traffic on their API end.
